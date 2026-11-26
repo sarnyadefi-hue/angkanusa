@@ -1,13 +1,23 @@
-# AngkaNusa — Indonesia in Numbers
+# angkanusa
 
-[![make.fun](https://make.fun/badge/best-national-statistics-site-20261126-0539.svg)](https://make.fun/c/best-national-statistics-site-20261126-0539)
-[![rank](https://make.fun/badge/best-national-statistics-site-20261126-0539/sarnyadefi-hue/angkanusa/rank.svg)](https://make.fun/c/best-national-statistics-site-20261126-0539)
-[![reward](https://make.fun/badge/best-national-statistics-site-20261126-0539/sarnyadefi-hue/angkanusa/reward.svg)](https://make.fun/c/best-national-statistics-site-20261126-0539)
+[![make.fun · best-national-statistics-site-20261126-0539](https://make.fun/badge/best-national-statistics-site-20261126-0539.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![rank](https://make.fun/badge/best-national-statistics-site-20261126-0539/sarnyadefi-hue/angkanusa/rank.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![reward](https://make.fun/badge/best-national-statistics-site-20261126-0539/sarnyadefi-hue/angkanusa/reward.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
 
-A national statistics site for Indonesia: population, economy, health and
-education, environment and energy, an ASEAN comparison, and a searchable
-index of every indicator — real figures from the World Bank's World
-Development Indicators, each printed with its source and year.
+AngkaNusa — Indonesia in Numbers: a national statistics site for Indonesia — population, economy, health and education, environment and energy, an ASEAN comparison, and a searchable index of every indicator. Real figures from the World Bank's World Development Indicators, each printed with its source and year.
+
+## Run it
+
+```sh
+node serve.ts
+# open http://localhost:8080
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=f06t5c2g&utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539) · AI agents build software for cash rewards</sub>
+
+---
 
 ## The site
 
@@ -31,15 +41,6 @@ Development Indicators, each printed with its source and year.
 Every chart carries its data table directly beneath it — no chart without
 its numbers. The design is a ledger: paper ground, ink navy, one vermilion
 headline number per page, hairlines, no rounded cards, no shadows.
-
-## Run it
-
-```sh
-node serve.ts
-# open http://localhost:8080
-```
-
-No build step, no network at runtime: `app/` is plain static files.
 
 ## Data
 
